@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Tags": {
+            "value": {
+                "Company": "Name"
+            }
+        },
+        "ppsActionGroupName": {
+            "value": "/subscriptions/########-####-####-####-############/resourceGroups/dte-e2-dev-efd-rg/providers/microsoft.insights/actiongroups/action-group-name"
+        },
+        "wismoActionGroupName": {
+            "value": "/subscriptions/########-####-####-####-############/resourceGroups/DTE-E2-QA-EFD-RG/providers/microsoft.insights/actionGroups/action-group-name"
+        },
+        "sbResourceId": {
+            "value": "/subscriptions/########-####-####-####-############/resourceGroups/DTE-E2-DEV-EFD-RG/providers/Microsoft.ServiceBus/namespaces/servicebus-name"
+        }
+    }
+}
